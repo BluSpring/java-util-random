@@ -1,6 +1,6 @@
 {
   "name": "java-util-random",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A recreation of Java's java.util.Random, with full support for BigInts. Streams not supported yet.",
   "main": "dist/index.js",
   "repository": "https://github.com/BluSpring/java-util-random",
