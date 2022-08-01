@@ -1,4 +1,5 @@
 # java-util-random
+[![npm version](https://badge.fury.io/js/java-util-random.svg)](https://badge.fury.io/js/java-util-random)
 A recreation of Java's java.util.Random class in Node.js.
 
 Yes, I know there's already [java-random](https://npmjs.com/package/java-random), however the code is quite old, it doesn't fully support BigInts, and it doesn't have any typings. This library should be able to meet your needs. If you find any bugs, feel free report it on the [issue tracker](https://github.com/BluSpring/java-util-random/issues/new)!
