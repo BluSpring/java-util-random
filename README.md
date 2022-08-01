@@ -21,7 +21,8 @@ const random = new Random();
 
 ## Known Issues
 - .nextFloat() returns a value inaccurate to what Java returns.
-  > I'm not quite sure how to fix this issue, so if you know how, please feel free to PR.
+  > ~~I'm not quite sure how to fix this issue, so if you know how, please feel free to PR.~~
+  > The values of nextFloat() are now mostly accurate to Java floats, however there are occasionally fairly small precision issues.
 
 - There are no streams.
   > I haven't bothered to try implementing them yet, however in the near future I might.

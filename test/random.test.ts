@@ -47,6 +47,16 @@ test('Testing value of nextFloat()', () => {
     expect(random.nextFloat()).toBe(0.18820518);
 });
 
+test('Testing first 5 values of nextFloat()', () => {
+    const random = new Random(seed);
+
+    expect(random.nextFloat()).toBe(0.18820518);
+    expect(random.nextFloat()).toBe(0.51758075);
+    expect(random.nextFloat()).toBe(0.38232034);
+    expect(random.nextFloat()).toBe(0.29484594);
+    expect(random.nextFloat()).toBe(0.7598421);
+});
+
 test('Testing value of nextGaussian()', () => {
     const random = new Random(seed);
 

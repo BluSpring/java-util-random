@@ -242,7 +242,7 @@ export default class Random {
      * @returns {number} JavaScript doesn't actually have floats, so this is technically a double
      */
     nextFloat(): number {
-        return this.next(24) / (1 << 24);
+        return (((this.next(24) / (1 << 24)) * 1e8) | 0) / 1e8;
     }
 
     nextDouble(): number {
